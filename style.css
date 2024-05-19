@@ -1,0 +1,172 @@
+#headImg{ 
+    text-align: center;
+
+}
+
+
+body{ 
+    background: linear-gradient(to bottom, rgb(95, 176, 203), gold);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+nav{ 
+    background-image: url("Media/Coding.jpg");
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#menuBar{ 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.menu-button{ 
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom, #00B0FF, #18FFFF);
+
+}
+
+a{ 
+    text-decoration: none;
+}
+#head3{ 
+    text-align: center;
+}
+
+.flex-container{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.flex-container > img{ 
+    flex: 1; 
+    min-width: 50%;
+    max-width: 50%;
+    max-height: 50%;
+}
+.flex-container > p { 
+    flex: 1; 
+    max-width:100%;
+}
+video{ 
+    max-width: 100%; 
+    height: auto;
+}
+
+#emailMe > td{ 
+    margin-right: 20%;
+}
+
+#contactForm{ 
+    text-align: center;
+}
+
+#gamingClip{ 
+    text-align: center;
+}
+
+#buttons{ 
+    text-align: center;
+}
+
+/* @media (max-width: 600px){ 
+    #content{ 
+        width: auto;
+    }
+    nav{ 
+        width: auto;
+        max-width: 100%;
+    }
+    table{ 
+        width: auto;
+    }
+    img{ 
+        max-width:50%; 
+        height: 200px;
+    }
+
+    #github, #linkedin2{ 
+       width:auto;
+        max-height: 100px;
+    }
+} */
+
+@media (max-width: 768px){
+    /* Adjustments for tablets and small desktop screens */
+    .flex-container > img{
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    /* Adjustments for mobile devices */
+    #content{
+        width: auto;
+    }
+    nav{
+        width: auto;
+        max-width: 100%;
+    }
+    table{
+        width: auto;
+    }
+    img{
+        max-width:100%; 
+        height: auto;
+    }
+
+    #github, #linkedin2{
+        width:auto;
+        max-height: 100px;
+    }
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #IDEAndPL{ 
+    border: 1px dashed black;
+  }
+
+  #darkmode:hover{
+    background-color: rgb(100,100,100);
+    transition: 0.7ms;
+  }
+
+  #lightmode:hover{ 
+    background-color: lightpink;
+    transition: 0.7ms;
+  }
+
+.menu-button:hover{ 
+    background-image: linear-gradient(to right, red, yellow);
+    transition: 0.7ms;
+}
+
+nav{ 
+    border: 1px dotted white;
+}
+
+#imgFA{ 
+    max-width:300px;
+}

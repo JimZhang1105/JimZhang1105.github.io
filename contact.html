@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jim Zhang - Contact</title>
+    <link rel = "icon" type = "image/x-icon" href = "Media/logo.webp">
+    <!--Photo taken from: https://www.dreamstime.com/illustration/jz-icon.html  date accessed feb 7 2024-->
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id="content">
+        <div id = "headImg">
+            <a href = "index.html"><img src ="Media/logo.webp" height = "150" width = "200"></a>
+            </div>
+    <h3 id="head3">Menu</h3>
+    <nav> 
+        <!--Image acced from https://wonderfulengineering.com/37-programmer-code-wallpaper-backgrounds-free-download/ access date Apr 7 2024-->
+        <table id="menuBar">
+            <tr> 
+                <td> 
+                    <button class ="menu-button"><a href = "index.html">Home Page</a></button>
+                </td>
+                <td> 
+                    <button class ="menu-button"><a href = "education.html">Education</a></button>
+                </td>
+                <td><button class ="menu-button"><a href = "contact.html">Contact Me</a></button></td>
+            </tr>
+        </table>
+        
+    </nav>
+        <div id = "buttons">
+            <button id="darkmode">Dark Mode</button>
+            <button id="lightmode">Light Mode</button>
+            </div>
+    
+    <main>
+        <div>
+        <table id="emailMe">
+            <tr>
+                <td id ="email1">
+                    <h2 id="emailForSchool">Email Me For School</h2>
+                    <a href="mailto: dy716581@dal.ca">Click Here</a></P>
+                </td>
+            </tr>
+            <tr> 
+                <td id = "email2">
+                    <h2 id="emailForPersonal">Email Me In General</h2>
+                    <a href="mailto: jimzhang1107@gmail.com">Click Here</a>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+        <div id = "contactForm">
+        <h2 id="contactMe">Contact me</h2>
+        <p id ="demo"></p>
+        <form id="form" action="contact.php" method= "POST">
+            <label for="name">First Name:</label><br> 
+            <input type="text" name ="firstName" id ="fname" required><br>
+            
+            <label for="lname">Last Name:</label><br> 
+            <input type="text" name ="lastName" id ="lname" required><br>
+
+            <label for="mail">Email:</label><br> 
+            <input type="email" name = "Email" id ="email" required><br>
+
+            <label for="message">Message</label><br>
+            <textarea id = "message" row="4" cols="50"></textarea><br>
+
+            <label for="check">Good to send ?</label><br>
+            <input type ="checkbox" id = "check"><br>
+
+            <input type = submit value = "submit" id = "submit">
+         </form>
+         </div>
+
+         
+    </main>
+    <footer>
+        <br><br><br>
+        <table id="endOfInformation">
+            <tr>
+                <td>
+                    <p id="message1">Check out my GitHub</p>
+                    <a href = "https://github.com/" target="_blank"><img src = "Media/GitHub-Logo.png" width = "150" height = "100" id ="github"></a>
+                    <!--Img taken from Logos-world date taken Apr.7 2024-->
+                </td>
+                <td>
+                    <p id="message2">Check out my LinkedIn</p>
+                    <a href = "https://www.linkedin.com/feed/" target="_blank"><img src ="Media/linkedIn_PNG7.png" alt = "linkedin" height="100" width="100" id ="linkedin2"></a>
+                    <!--Image accessed from wisestamp.com date accessed Apr.7 2024-->
+                </td>
+            </tr>
+        </table>
+    </footer>
+    </div>
+    <script src ="script.js"></script>
+</body>
+</html>
+
